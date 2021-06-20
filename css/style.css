@@ -49,6 +49,7 @@ section{
 }
 
 .section-title{
+    font-size: 32px;
     margin-top: 5%;
     text-align: center;
     border-bottom: 2px solid #333;
@@ -61,6 +62,7 @@ section{
     margin-bottom: 4%;
     display: inline-block;
     border-bottom: 2px solid #333;
+    letter-spacing: 8px;
 }
 
 /* header */
@@ -126,26 +128,35 @@ section{
 }
 
 .floor-title{
-    border-top: 2px dotted #333;
-    border-bottom: 2px dotted #333;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    /* border-top: 2px dotted #333;
+    border-bottom: 2px dotted #333; */
+    display: inline-block;
+    padding: 8px 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(5, 163, 255,0.8);
 }
 
 
 
 .floor-map{
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     border-radius: 30px;
 }
 
+
+/* 画像とテキストを横並びに。
+テキストの配置は画像の中心に合わせた。 */
 .two-column{
     display: flex;
-    margin: 4% 0;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
 }
 
 .two-column img{
-    width: 50%;
+    width: 55%;
     object-fit: contain;
     margin-right: 2%;
     margin-left: 2%;
@@ -153,7 +164,7 @@ section{
 }
 
 .two-column p{
-    width: 48%;
+    width: 46%;
     margin-right: 2%;
     margin-left: 2%;
 }
