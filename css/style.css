@@ -70,13 +70,13 @@ section{
     letter-spacing: 8px;
     text-align: center;
     color: #333;
-    background: linear-gradient(transparent 45%, rgba(12, 191, 245, 0.6) 45%);
+    background: linear-gradient(transparent 60%, rgba(12, 191, 245, 0.6) 60%);
     
     
 }
 
 .marker{
-    background: linear-gradient(transparent 40%, yellow 40%);
+    background: linear-gradient(transparent 60%, yellow 60%);
 }
 
 
