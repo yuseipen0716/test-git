@@ -197,13 +197,19 @@ section{
     height: 100%;
     content: "";
     position: absolute;
-    background-image: url(../img/water.jpg);
+    background-image: url(../img/blue.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
     opacity: 0.9;
     z-index: -1;
+}
+
+.event-text{
+    margin-top: 5%;
+    text-align: center;
+    color: #fff;
 }
 
 
