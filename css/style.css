@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* 共通部分 */
+/* 共通パーツ */
 
 /* ナビゲーションメニューのリンク踏んだときにスクロールするように
 ページ移動して欲しい */
@@ -79,6 +79,15 @@ section{
     background: linear-gradient(transparent 60%, yellow 60%);
 }
 
+.column-title{
+    display: inline-block;
+    padding: 8px 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(12, 191, 245,0.8);
+    border-radius: 10px;
+}
 
 
 /* header */
@@ -143,15 +152,7 @@ section{
     font-weight: bold;
 }
 
-.floor-title{
-    display: inline-block;
-    padding: 8px 16px;
-    letter-spacing: 6px;
-    text-align: center;
-    color: #fff;
-    background-color: rgb(12, 191, 245,0.8);
-    border-radius: 10px;
-}
+
 
 
 
