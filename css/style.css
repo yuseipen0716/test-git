@@ -211,6 +211,19 @@ section{
     color: #fff;
 }
 
+.three-column{
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-column img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
 
 
 
