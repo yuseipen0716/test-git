@@ -212,14 +212,31 @@ section{
 }
 
 .three-column{
+    margin-top: 5%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.three-column img{
-    width: 100px;
-    height: 100px;
+.three-column li{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.event-title{
+    margin-bottom: 4%;
+    background: none;
+    border-radius: 0;
+    background: linear-gradient(transparent 80%, yellow 80%)
+}
+
+.event-img{
+    width: 100%;
     border-radius: 50%;
+}
+
+.readmore{
+    width: 100%;
 }
 
 
