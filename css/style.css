@@ -88,6 +88,11 @@ section{
     border-radius: 10px;
 }
 
+.center-wrap{
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 /* header */
 
@@ -273,6 +278,8 @@ section{
     color: #fff;
     border: 1px solid #e5e5e5;
     padding: 1em 4em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .time dd{
@@ -280,6 +287,8 @@ section{
     background-color: #fff;
     border: 1px solid #e5e5e5;
     padding: 1em 4em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .time p{
     margin-top: 3%;
@@ -319,6 +328,42 @@ section{
     padding: 1em 4em;
 }
 
+/* discount */
+.discount-content{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+
+.discount-title{
+    font-size: 1.25em;
+    background-color: #eee;
+    border-left: 3px solid #64c4f0;
+    padding: 1em 2em;
+    margin-bottom: 3%;
+}
+
+.discount-content p{
+    margin-left: 2%;
+}
+
+.certificate-list{
+    background-color: #efe;
+    display: inline-block;
+    padding: 0.5em 1em;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.certificate-list ul{
+    margin: 2% 0 2% 5%;
+}
+
+.certificate-list li{
+    list-style: circle;
+    text-align-last: left;
+}
 
 
 
@@ -339,7 +384,14 @@ section{
     width: 100%;
 }
 
+.adress{
+    text-align: center;
+    margin-bottom: 2%;
+}
 
+.access p{
+    text-align: center;
+}
 
 
 
@@ -380,6 +432,17 @@ section{
     .two-column p{
         width: 100%;
         margin-bottom: 4%;
+    }
+
+
+    /* information */
+    .time dt{
+        width: 40%;
+        padding: 1em 2.5em;
+    }
+    .time dd{
+        width: 60%;
+        padding: 1em 2.5em;
     }
 
 
