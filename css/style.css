@@ -37,6 +37,7 @@ li{
     margin: auto;
 }
 
+
 section{
     min-height: 100vh;
     padding-bottom: 5%;
@@ -239,6 +240,104 @@ section{
     width: 100%;
 }
 
+
+/* information */
+.information{
+    background-color: #f8fefe;
+}
+
+.container-narrow{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.time{
+    width: 80%;
+    text-align: center;
+    margin: 4% auto;
+}
+
+.time h4{
+    margin-bottom: 3%;
+}
+
+.time dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.time dt{
+    width: 35%;
+    background-color: #64c4f0;
+    color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 1em 4em;
+}
+
+.time dd{
+    width: 65%;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 1em 4em;
+}
+.time p{
+    margin-top: 3%;
+}
+
+.fee{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin: 4% auto;
+}
+
+.fee-title{
+    text-align: center;
+    margin-bottom: -2%;
+}
+
+.fee dl{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.fee dt{
+    width: 100%;
+    background-color: #64c4f0;
+    color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 1em 4em;
+}
+
+.fee dd{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 1em 4em;
+}
+
+
+
+
+/* 埋め込んだgoogle mapsを画面いっぱいに広げる */
+.map{
+    margin-top: 4%;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.map iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
 
 
 
