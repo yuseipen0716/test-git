@@ -227,7 +227,7 @@ section{
     margin-top: 7%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .three-column li{
@@ -242,9 +242,14 @@ section{
     background: linear-gradient(transparent 80%, yellow 80%)
 }
 
+.event-img-wrap{
+    text-align: center;
+}
+
 .event-img{
     width: 100%;
     border-radius: 50%;
+    display: inline-block;
 }
 
 /* .read-more{
@@ -270,9 +275,9 @@ section{
     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.8) 50%, #fff 100%);
     background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.8) 50%, #fff 100%);
 }
-
+/* 
 /* 続きを読む */
-.readmore-label{
+/* .readmore-label{
     display: table;
     bottom: 5px;
     position: absolute;
@@ -294,10 +299,10 @@ section{
 
 .readmore-check{
     display: none;
-} */
+}  */
 
 /* チェックボタン非表示 */
-.readmore-check:checked ~ .readmore-label{
+/* .readmore-check:checked ~ .readmore-label{
     position: static;
     transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -313,11 +318,11 @@ section{
 
 .readmore-check:checked ~ .readmore-content::before{
     display: none;
-}
+}  */
 
 /* information */
 .information{
-    background-color: #f8fefe;
+    background-color: #fff;
 }
 
 .container-narrow{
@@ -515,11 +520,36 @@ footer p{
     .two-column img{
         width: 100%;
         margin-bottom: 4%;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .two-column p{
         width: 100%;
         margin-bottom: 4%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+    /* event */
+    .three-column{
+        display: block;
+    }
+    
+    .event-title{
+        margin-bottom: 6%;
+    }
+
+    .event-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .three-column li{
+        margin-top: 2%;
+        margin-bottom: 6%;
     }
 
 
@@ -532,6 +562,15 @@ footer p{
         width: 60%;
         padding: 1em 2.5em;
     }
+    .discount-content{
+        margin-bottom: 6%;
+    }
+    .discount-title{
+        padding: 0.5em 1.5em;
+    }
+    .certificate-list{
+        width: 70%;
+    }
 
 
 }
@@ -540,7 +579,56 @@ footer p{
 /* レスポンシブ用 スマホ */
 @media screen and (max-width: 480px){
 
+    html{
+        font-size: 14px;
+    }
+    
     .nav-item{
         font-size: 12px;
+    }
+    
+    .section-title{
+        font-size: 24px;
+        padding: 10px 28px;
+        border-radius: 28px;
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+
+    .section-subtitle{
+        font-size: 18px;
+    }
+    
+    .floor-map{
+        margin-top: 3%;
+        margin-bottom: 8%;
+    }
+
+
+
+    .event-img{
+        width: 100%;
+    }
+
+    .top-title a{
+        font-size: 48px;
+    }
+
+
+
+
+/* informationのタイトルをスマホで一行表示するために */
+    .info-title{
+        letter-spacing: 5px;
+        padding: 10px 20px;
+    }
+
+
+    .container-narrow{
+        width: 100%;
+        background-color: #fff;
+
+    .certificate-list{
+        width: 90%;
     }
 }
