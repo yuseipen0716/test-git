@@ -539,7 +539,8 @@ footer p{
     }
     
     .event-title{
-        margin-bottom: 6%;
+        margin-top: 7%;
+        margin-bottom: 7%;
     }
 
     .event-img{
@@ -563,7 +564,7 @@ footer p{
         padding: 1em 2.5em;
     }
     .discount-content{
-        margin-bottom: 6%;
+        margin-bottom: 8%;
     }
     .discount-title{
         padding: 0.5em 1.5em;
@@ -627,8 +628,45 @@ footer p{
     .container-narrow{
         width: 100%;
         background-color: #fff;
+    }
+
+    .time{
+        width: 100%;
+    }
+
+    .time dt{
+        padding: 1em 0.5em;
+    }
+
+    .time dd{
+        padding: 1em 0.5em;
+    }
+
+    .time dl{
+        margin-bottom: 8%;
+    }
+
+    .fee dl{
+        margin-bottom: 8%;
+    }
+
+    .fee dt{
+        padding: 0.75em 1em;
+    }
+
+    .fee dd{
+        padding: 1em;
+    }
+
+
 
     .certificate-list{
         width: 90%;
     }
+
+
+
+
+
+
 }
