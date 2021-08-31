@@ -2,3 +2,5 @@
 
 pull request yonkaime
 
+confrictお待ちしてます。
+
